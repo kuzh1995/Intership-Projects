@@ -1,0 +1,35 @@
+.grid_3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card{
+  border-radius: 10px;
+  --bs-card-border-color: #e2e2e2;
+}
+
+.card_img{
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media only screen and (max-width: 992px) {
+  .grid_3{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid_3{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+button{
+  font-weight: 500 !important;
+}

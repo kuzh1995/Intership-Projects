@@ -1,0 +1,66 @@
+body {
+  background: rgb(252, 209, 89);
+  background: radial-gradient(circle, rgba(252, 209, 89, 1) 0%, rgba(255, 142, 77, 1) 50%, rgba(252, 209, 89, 1) 100%);
+}
+
+.card {
+  border-radius: 10px;
+  border: unset;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(255, 255, 255, .25) !important;
+}
+
+label {
+  font-weight: 500;
+  color: #000;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.form-control:focus {
+  box-shadow: unset;
+  border-color: rgba(255, 142, 77, 1) !important;
+}
+
+button.btn.btn-warning {
+  color: #fff !important;
+  font-weight: 500 !important;
+  background: rgba(255, 142, 77, 1) !important;
+  border-color: rgba(255, 142, 77, 1) !important;
+}
+
+button.btn.btn-warning:hover {
+  background: transparent !important;
+  color: rgba(255, 142, 77, 1) !important;
+}
+
+th {
+  vertical-align: middle;
+}
+
+th span {
+  font-weight: 400 !important;
+}
+
+td {
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+thead tr {
+  background: rgba(252, 209, 89, 1);
+}
+
+thead tr th {
+  border: unset !important;
+}
